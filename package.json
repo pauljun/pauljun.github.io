@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "hexo server",
-    "deploy": "hexo g -d"
+    "deploy": "hexo g -d",
+    "push": "node bin/push.js"
   },
   "hexo": {
     "version": "3.8.0"
