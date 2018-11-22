@@ -1,10 +1,6 @@
 language: node_js
-node_js: stable
-
-# S: Build Lifecycle
-install:
-  - npm install
-
+node_js:
+  - "8"
 
 #before_script:
  # - npm install -g gulp
