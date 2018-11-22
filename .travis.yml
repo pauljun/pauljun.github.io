@@ -1,19 +1,30 @@
 language: node_js
-node_js:
-  - "8"
+node_js: stable
 
-before_deploy:
-  - hexo generate # generate static site
-deploy:
-  provider: pages # deploy to GitHub Pages
-  skip_cleanup: true # don't clean generated site
-  github_token: 14bbfaca1eb4196388e6c08596479adf68359894 # provide the encrypted token
-  on:
-    branch: master
-  repo: pauljun/pauljun.github.io # optional, defaults to current repo
-  local_dir: public # optional, defaults to the current directory
-  target_branch: master # optional, defaults to "gh-pages"
-  fqdn: https://pauljun.github.io # optional
-  project_name: pauljun.github.io # optional, defaults to value of fqdn or repo
-  email: 467655062@qq.com # optional, defaults to "deploy@travis-ci.org"
-  name: pauljun # optional, defaults to "Deployment Bot"
+# S: Build Lifecycle
+install:
+  - npm install
+
+
+#before_script:
+ # - npm install -g gulp
+
+script:
+  - hexo g
+
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "pauljun"
+  - git config user.email "467655062@qq.com"
+  - git add .
+  - git commit -m "Update docs"
+  - git push --force --quiet "https://${token}@${GH_REF}" master:master
+# E: Build LifeCycle
+
+branches:
+  only:
+    - blog-resource
+env:
+ global:
+   - GH_REF: github.com/pauljun/pauljun.github.io.git
