@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-21T06:33:23.274Z</updated>
+  <updated>2018-11-22T03:02:24.723Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2018/11/21/react/"/>
     <id>http://yoursite.com/2018/11/21/react/</id>
     <published>2018-11-21T06:26:49.424Z</published>
-    <updated>2018-11-21T06:33:23.274Z</updated>
+    <updated>2018-11-22T03:02:24.723Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a><h1 id="react-文档"><a href="#react-文档" class="headerlink" title="react 文档"></a>react 文档</h1><p><a href="http://react-china.org/" target="_blank" rel="noopener">中国社区</a><br><a href="https://react.docschina.org/" target="_blank" rel="noopener">中文文档</a><br><a href="https://reactjs.org/" target="_blank" rel="noopener">官网</a></p>]]></content>
+    <content type="html"><![CDATA[<a id="more"></a><h1 id="react-文档"><a href="#react-文档" class="headerlink" title="react 文档"></a>react 文档</h1><p><a href="http://react-china.org/" target="_blank" rel="noopener">中国社区</a><br><a href="https://react.docschina.org/" target="_blank" rel="noopener">中文文档</a><br><a href="https://reactjs.org/" target="_blank" rel="noopener">官网</a></p><figure class="highlight actionscript"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="string">'655'</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
