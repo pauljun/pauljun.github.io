@@ -1,7 +1,9 @@
 ---
 title: 如何使用 Hexo 和 GitHub Pages 搭建这个博客
+date: 2017-04-11 16:29:50
+updated: 2017-04-22 03:02:00
 tags: [blog, Hexo, NexT, GitHub]
-categories: 部署
+categories: 构建
 ---
 
 一个博客的搭建过程分为三步：
@@ -562,7 +564,7 @@ markdown:
     collisionSuffix: 'v'
     permalink: false
     permalinkClass: header-anchor
-    permalinkSymbol: ¶
+    permalinkSymbol: 
 ```
 
 ## 参考链接
@@ -573,5 +575,5 @@ markdown:
 - [NexT 使用文档](http://theme-next.iissnan.com/getting-started.html)
 - [如何使用Hexo寫草稿? | 點燈坊](http://oomusou.io/hexo/hexo-draft/)
 
-[marked]: https://github.com/hexojs/hexo-renderer-marked
-[Markdown-it]: https://github.com/celsomiranda/hexo-renderer-markdown-it
+- [marked](https://github.com/hexojs/hexo-renderer-marked)
+- [Markdown-it](https://github.com/celsomiranda/hexo-renderer-markdown-it)

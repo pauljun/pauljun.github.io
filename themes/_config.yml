@@ -107,6 +107,16 @@ menu:
   #schedule: /schedule/ || calendar
   sitemap: /sitemap.xml || sitemap
 
+sitemap:
+  path: sitemap.xml
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20 # Maximum number of posts in the feed (Use 0 or false to show all posts)
+  hub:
+  content:
+
 # Enable/Disable menu icons.
 menu_icons:
   enable: true
@@ -599,7 +609,7 @@ calendar:
   timeZone:
   showDeleted: false
   singleEvents: true
-  maxResults: 250
+  maxResults: 1050
 
 # Algolia Search
 algolia_search:
