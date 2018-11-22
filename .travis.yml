@@ -24,7 +24,7 @@ after_script:
 
 branches:
   only:
-    - blog-resource
+    - devplover
 env:
  global:
    - GH_REF: github.com/pauljun/pauljun.github.io.git
