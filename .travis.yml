@@ -9,6 +9,4 @@ install:
 #before_script:
  # - npm install -g gulp
 
-script:
-  - hexo g
-  - hexo d
+script: "npm run deploy"
