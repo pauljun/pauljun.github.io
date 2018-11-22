@@ -9,9 +9,3 @@ categories: 资料
 [中国社区](http://react-china.org/)
 [中文文档](https://react.docschina.org/)
 [官网](https://reactjs.org/)
-
-```
-function(){
-  return '6666666666666666666666'
-}
-```
