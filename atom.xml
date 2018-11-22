@@ -124,4 +124,52 @@
     
   </entry>
   
+  <entry>
+    <title>如何使用 Hexo 和 GitHub Pages 搭建这个博客</title>
+    <link href="http://pauljun.com/2017/04/11/hexo/"/>
+    <id>http://pauljun.com/2017/04/11/hexo/</id>
+    <published>2017-04-11T08:29:50.000Z</published>
+    <updated>2017-04-21T19:02:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>一个博客的搭建过程分为三步：</p><ul><li>编写：包含内容的书写与格式的配置</li><li>构建：从编写的原始内容生成可发布的最终内容</li><li>发布：让待发布的内容对读者可见</li></ul><p>依托于博客平台（如博客园、新浪博客等）发布内容的用户只需要关注编写部分，但要搭建一个独立的个人博客则以上三方面都需要关心。幸运的是，现在有大量的工具帮助我们简化这个过程：丰富的 Markup 语言简化了编写；强大的静态站点生成器简化了构建；友好的托管平台简化了发布。</p><p>这个博客的诞生也得益于这些工具：</p><ul><li>编写：使用 Markdown，内置大量层级、列表、超链接、代码等的简便语法支持</li><li>构建：使用 Hexo，几条命令完成生成、预览、发布步骤</li><li>发布：使用 GitHub Pages 进行托管，方便又免费</li></ul><p>接下来我会按以下顺序介绍如何基于这些工具完成整个博客的搭建过程：</p><ul><li>环境准备</li><li>Hexo 和 NexT 主题的使用</li><li>GitHub Pages 的配置与部署</li><li>绑定自定义域名（可选）</li><li>Hexo 的详细配置过程</li></ul><a id="more"></a><h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><ul><li><p>安装 Node.js</p><p>  官网下载：<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">https://nodejs.org/en/download/</a></p><p>  更换成国内镜像源：</p>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[edit ~/.npmrc]</span><br><span class="line">registry=https://registry.npm.taobao.org</span><br><span class="line">[end]</span><br></pre></td></tr></table></figure></li><li><p>安装 Hexo</p>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></li></ul><h2 id="常用-Hexo-命令"><a href="#常用-Hexo-命令" class="headerlink" title="常用 Hexo 命令"></a>常用 Hexo 命令</h2><ul><li>初始化目录：<code>hexo init [folder]</code></li><li>新建文章：<code>hexo new [layout] &lt;title&gt;</code> 或 <code>hexo n [layout] &lt;title&gt;</code><ul><li>新建草稿：<code>hexo new draft &lt;title&gt;</code></li></ul></li><li>将草稿发布为正式文章：<code>hexo publish &lt;title&gt;</code></li><li>生成静态文件：<code>hexo generate</code> 或 <code>hexo g</code><ul><li>监听文件变化：<code>hexo g --watch</code> 或 <code>hexo g -w</code></li></ul></li><li>部署：<code>hexo deploy</code> 或 <code>hexo d</code><ul><li>先生成后部署：<code>hexo d -g</code></li></ul></li><li>启动本地服务器（服务器会监听文件变化并自动更新）：<code>hexo server</code> 或 <code>hexo s</code><ul><li>启动调试：<code>hexo s --debug</code></li><li>预览草稿：<code>hexo s --draft</code></li></ul></li><li>清除缓存：<code>hexo clean</code></li></ul><h2 id="使用-NexT-主题"><a href="#使用-NexT-主题" class="headerlink" title="使用 NexT 主题"></a>使用 NexT 主题</h2><h3 id="下载主题"><a href="#下载主题" class="headerlink" title="下载主题"></a>下载主题</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> &lt;your-hexo-site&gt;</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure><h3 id="启用主题"><a href="#启用主题" class="headerlink" title="启用主题"></a>启用主题</h3><p>编辑 <code>_config.yml</code>：</p><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure><h3 id="设置语言"><a href="#设置语言" class="headerlink" title="设置语言"></a>设置语言</h3><p>编辑 <code>_config.yml</code>：</p><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">language:</span> <span class="string">zh-Hans</span></span><br></pre></td></tr></table></figure><h3 id="查看是否生效"><a href="#查看是否生效" class="headerlink" title="查看是否生效"></a>查看是否生效</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一个博客的搭建过程分为三步：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;编写：包含内容的书写与格式的配置&lt;/li&gt;
+&lt;li&gt;构建：从编写的原始内容生成可发布的最终内容&lt;/li&gt;
+&lt;li&gt;发布：让待发布的内容对读者可见&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;依托于博客平台（如博客园、新浪博客等）发布内容的用户只需要关注编写部分，但要搭建一个独立的个人博客则以上三方面都需要关心。幸运的是，现在有大量的工具帮助我们简化这个过程：丰富的 Markup 语言简化了编写；强大的静态站点生成器简化了构建；友好的托管平台简化了发布。&lt;/p&gt;
+&lt;p&gt;这个博客的诞生也得益于这些工具：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;编写：使用 Markdown，内置大量层级、列表、超链接、代码等的简便语法支持&lt;/li&gt;
+&lt;li&gt;构建：使用 Hexo，几条命令完成生成、预览、发布步骤&lt;/li&gt;
+&lt;li&gt;发布：使用 GitHub Pages 进行托管，方便又免费&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;接下来我会按以下顺序介绍如何基于这些工具完成整个博客的搭建过程：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;环境准备&lt;/li&gt;
+&lt;li&gt;Hexo 和 NexT 主题的使用&lt;/li&gt;
+&lt;li&gt;GitHub Pages 的配置与部署&lt;/li&gt;
+&lt;li&gt;绑定自定义域名（可选）&lt;/li&gt;
+&lt;li&gt;Hexo 的详细配置过程&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="创世记" scheme="http://pauljun.com/categories/%E5%88%9B%E4%B8%96%E8%AE%B0/"/>
+    
+    
+      <category term="Hexo" scheme="http://pauljun.com/tags/Hexo/"/>
+    
+      <category term="GitHub" scheme="http://pauljun.com/tags/GitHub/"/>
+    
+      <category term="blog" scheme="http://pauljun.com/tags/blog/"/>
+    
+      <category term="NexT" scheme="http://pauljun.com/tags/NexT/"/>
+    
+  </entry>
+  
 </feed>
