@@ -10,23 +10,4 @@ install:
  # - npm install -g gulp
 
 script:
-  - hexo g
-
-after_script:
-  - cd ./public
-  - git init
-  - git config user.name "pauljun"
-  - git config user.email "467655062@qq.com"
-  - git add .
-  - git commit -m "Update docs"
-  - git push --force --quiet "https://35243ac1f2fba5449ef1fe4f807aa0818d77be53@github.com/pauljun/pauljun.github.io.git" master:master
-  # - git push -u origin master
-# E: Build LifeCycle
-
-branches:
-  only:
-    - devplover
-env:
- global:
-   - GH_REF: github.com/pauljun/pauljun.github.io.git
-   - TOKEN : 35243ac1f2fba5449ef1fe4f807aa0818d77be53
+  - hexo g d
