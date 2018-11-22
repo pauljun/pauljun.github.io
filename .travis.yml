@@ -19,7 +19,7 @@ after_script:
   - git config user.email "467655062@qq.com"
   - git add .
   - git commit -m "Update docs"
-  - git push --force --quiet "https://${token}@${GH_REF}" master:master
+  - git push --force --quiet "https://${TOKEN}@${GH_REF}" master:master
   # - git push -u origin master
 # E: Build LifeCycle
 
@@ -29,3 +29,4 @@ branches:
 env:
  global:
    - GH_REF: github.com/pauljun/pauljun.github.io.git
+   - TOKEN : 35243ac1f2fba5449ef1fe4f807aa0818d77be53
