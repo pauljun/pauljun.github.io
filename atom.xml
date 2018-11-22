@@ -118,9 +118,9 @@
     
       <category term="Hexo" scheme="http://pauljun.com/tags/Hexo/"/>
     
-      <category term="GitHub" scheme="http://pauljun.com/tags/GitHub/"/>
-    
       <category term="Travis" scheme="http://pauljun.com/tags/Travis/"/>
+    
+      <category term="GitHub" scheme="http://pauljun.com/tags/GitHub/"/>
     
   </entry>
   
