@@ -81,18 +81,18 @@
 
 
 
-<meta name="description" content="由于博客的源码和生成站点位于不同的代码仓库中（源码位于 uchuhimo/uchuhimo.me，生成的静态站点位于 uchuhimo/uchuhimo.github.io，即个人 GitHub Pages 的仓库），文章的发布过程需要提交两次。作为拥有懒惰这种美德的程序员，自然会开始折腾只需要提交一次、博客就自动部署到 GitHub Pages 上的方法——这里就轮到 Travis 登场了。 接">
+<meta name="description" content="简介">
 <meta name="keywords" content="Hexo,GitHub,Travis">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用 Travis 自动部署博客到 Github Pages">
 <meta property="og:url" content="http://pauljun.com/2017/08/12/travis/index.html">
 <meta property="og:site_name" content="PaulJun">
-<meta property="og:description" content="由于博客的源码和生成站点位于不同的代码仓库中（源码位于 uchuhimo/uchuhimo.me，生成的静态站点位于 uchuhimo/uchuhimo.github.io，即个人 GitHub Pages 的仓库），文章的发布过程需要提交两次。作为拥有懒惰这种美德的程序员，自然会开始折腾只需要提交一次、博客就自动部署到 GitHub Pages 上的方法——这里就轮到 Travis 登场了。 接">
+<meta property="og:description" content="简介">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-11-22T08:31:46.934Z">
+<meta property="og:updated_time" content="2018-12-07T08:03:34.048Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用 Travis 自动部署博客到 Github Pages">
-<meta name="twitter:description" content="由于博客的源码和生成站点位于不同的代码仓库中（源码位于 uchuhimo/uchuhimo.me，生成的静态站点位于 uchuhimo/uchuhimo.github.io，即个人 GitHub Pages 的仓库），文章的发布过程需要提交两次。作为拥有懒惰这种美德的程序员，自然会开始折腾只需要提交一次、博客就自动部署到 GitHub Pages 上的方法——这里就轮到 Travis 登场了。 接">
+<meta name="twitter:description" content="简介">
 
 
 
@@ -406,9 +406,10 @@
       
 
       
-        <p>由于博客的源码和生成站点位于不同的代码仓库中（源码位于 <a href="https://github.com/uchuhimo/uchuhimo.me" target="_blank" rel="noopener">uchuhimo/uchuhimo.me</a>，生成的静态站点位于 <a href="https://github.com/uchuhimo/uchuhimo.github.io" target="_blank" rel="noopener">uchuhimo/uchuhimo.github.io</a>，即个人 GitHub Pages 的仓库），文章的发布过程需要提交两次。作为拥有懒惰这种美德的程序员，自然会开始折腾只需要提交一次、博客就自动部署到 GitHub Pages 上的方法——这里就轮到 Travis 登场了。</p>
+        <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><a id="more"></a>
+<p>由于博客的源码和生成站点位于不同的代码仓库中（源码位于 <a href="https://github.com/uchuhimo/uchuhimo.me" target="_blank" rel="noopener">uchuhimo/uchuhimo.me</a>，生成的静态站点位于 <a href="https://github.com/uchuhimo/uchuhimo.github.io" target="_blank" rel="noopener">uchuhimo/uchuhimo.github.io</a>，即个人 GitHub Pages 的仓库），文章的发布过程需要提交两次。作为拥有懒惰这种美德的程序员，自然会开始折腾只需要提交一次、博客就自动部署到 GitHub Pages 上的方法——这里就轮到 Travis 登场了。</p>
 <p>接下来，我会先介绍自动部署的原理，再讲解搭建的过程。</p>
-<a id="more"></a>
+<!--more-->
 <h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>Travis 为 GitHub 上的开源项目提供免费的持续集成（CI）服务，只要你向指定仓库提交了代码，Travis 就会根据配置自动运行 CI 任务。利用这个特性，我们可以做到在一次提交过程中触发如下流程：</p>
 <ul>
 <li>内容编辑完成，向博客的源码仓库 push 代码</li>
@@ -623,7 +624,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -696,7 +697,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#原理"><span class="nav-number">1.</span> <span class="nav-text">原理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#准备工作"><span class="nav-number">2.</span> <span class="nav-text">准备工作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置-Travis"><span class="nav-number">3.</span> <span class="nav-text">配置 Travis</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#后记"><span class="nav-number">4.</span> <span class="nav-text">后记</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考链接"><span class="nav-number">5.</span> <span class="nav-text">参考链接</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#简介"><span class="nav-number">1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#原理"><span class="nav-number">2.</span> <span class="nav-text">原理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#准备工作"><span class="nav-number">3.</span> <span class="nav-text">准备工作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置-Travis"><span class="nav-number">4.</span> <span class="nav-text">配置 Travis</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#后记"><span class="nav-number">5.</span> <span class="nav-text">后记</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考链接"><span class="nav-number">6.</span> <span class="nav-text">参考链接</span></a></li></ol></div>
             
 
           </div>
