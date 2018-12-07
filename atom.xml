@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://pauljun.com/"/>
-  <updated>2018-11-26T09:16:22.884Z</updated>
+  <updated>2018-12-07T07:04:22.513Z</updated>
   <id>http://pauljun.com/</id>
   
   <author>
@@ -18,21 +18,44 @@
   
   <entry>
     <title></title>
-    <link href="http://pauljun.com/2018/11/26/resource/"/>
-    <id>http://pauljun.com/2018/11/26/resource/</id>
-    <published>2018-11-26T09:15:23.862Z</published>
-    <updated>2018-11-26T09:16:22.884Z</updated>
+    <link href="http://pauljun.com/2018/12/07/ReactDOM/"/>
+    <id>http://pauljun.com/2018/12/07/ReactDOM/</id>
+    <published>2018-12-07T07:00:44.541Z</published>
+    <updated>2018-12-07T07:04:22.513Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前端学习资料"><a href="#前端学习资料" class="headerlink" title="前端学习资料"></a>前端学习资料</h1><h2 id="技术站"><a href="#技术站" class="headerlink" title="技术站"></a>技术站</h2><p><a href="https://developer.mozilla.org/zh-CN/" target="_blank" rel="noopener">MDN web docs</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="概览"><a href="#概览" class="headerlink" title="概览"></a>概览</h1><p>react-dom 这个软件包提供了针对DOM的方法,可以在你应用的顶级域中调用, 也可以在有需要的情况下用作跳出React模型的出口。你的大部分组件应该不需要这个包。</p><p>内置方法</p><ul><li><code>render()</code></li><li><code>unmountComponentAtNode()</code></li><li><code>findDOMNode()</code></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;前端学习资料&quot;&gt;&lt;a href=&quot;#前端学习资料&quot; class=&quot;headerlink&quot; title=&quot;前端学习资料&quot;&gt;&lt;/a&gt;前端学习资料&lt;/h1&gt;&lt;h2 id=&quot;技术站&quot;&gt;&lt;a href=&quot;#技术站&quot; class=&quot;headerlink&quot; title=&quot;技术站
+        &lt;h1 id=&quot;概览&quot;&gt;&lt;a href=&quot;#概览&quot; class=&quot;headerlink&quot; title=&quot;概览&quot;&gt;&lt;/a&gt;概览&lt;/h1&gt;&lt;p&gt;react-dom 这个软件包提供了针对DOM的方法,可以在你应用的顶级域中调用, 也可以在有需要的情况下用作跳出React模型的出口。你的
       
     
     </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>前端资料整理</title>
+    <link href="http://pauljun.com/2018/11/26/resource/"/>
+    <id>http://pauljun.com/2018/11/26/resource/</id>
+    <published>2018-11-26T09:15:23.862Z</published>
+    <updated>2018-12-07T07:56:02.026Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="技术站"><a href="#技术站" class="headerlink" title="技术站"></a>技术站</h1><p><a href="https://developer.mozilla.org/zh-CN/" target="_blank" rel="noopener">MDN web docs</a></p><h1 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h1><ul><li><a href="https://www.awesomes.cn/subject/vue#Dom-%E6%A1%86%E6%9E%B6" target="_blank" rel="noopener">vue技术站支持</a></li><li><a href="https://www.jianshu.com/p/2e53c4454d8b" target="_blank" rel="noopener">常用UI组件库</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;技术站&quot;&gt;&lt;a href=&quot;#技术站&quot; class=&quot;headerlink&quot; title=&quot;技术站&quot;&gt;&lt;/a&gt;技术站&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/zh-CN/&quot; target=&quot;_blank&quot; rel
+      
+    
+    </summary>
+    
+      <category term="资料" scheme="http://pauljun.com/categories/%E8%B5%84%E6%96%99/"/>
     
     
   </entry>
