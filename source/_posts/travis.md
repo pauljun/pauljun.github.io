@@ -5,6 +5,9 @@ tags: [Hexo, Travis, GitHub]
 categories: 部署
 ---
 
+## 简介
+<!--more-->
+
 由于博客的源码和生成站点位于不同的代码仓库中（源码位于 [uchuhimo/uchuhimo.me](https://github.com/uchuhimo/uchuhimo.me)，生成的静态站点位于 [uchuhimo/uchuhimo.github.io](https://github.com/uchuhimo/uchuhimo.github.io)，即个人 GitHub Pages 的仓库），文章的发布过程需要提交两次。作为拥有懒惰这种美德的程序员，自然会开始折腾只需要提交一次、博客就自动部署到 GitHub Pages 上的方法——这里就轮到 Travis 登场了。
 
 接下来，我会先介绍自动部署的原理，再讲解搭建的过程。

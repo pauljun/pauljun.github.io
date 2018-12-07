@@ -4,6 +4,7 @@ categories: 资料
 ---
 
 # 技术站
+<!-- more -->
 [MDN web docs](https://developer.mozilla.org/zh-CN/)
 
 # Vue
