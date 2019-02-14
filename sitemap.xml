@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://pauljun.com/2019/02/14/set-map/</loc>
+    
+    <lastmod>2019-02-14T02:24:32.033Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://pauljun.com/2018/12/28/es6-proxy/</loc>
+    
+    <lastmod>2018-12-28T09:47:09.057Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://pauljun.com/2017/08/12/travis/</loc>
     
     <lastmod>2018-12-07T08:03:34.048Z</lastmod>
